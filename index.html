@@ -16,14 +16,20 @@
 </head>
 <body>
     <header>
-        <h1>Coding Quiz</h1>
+    <div class="container">
+        <h1 class="block-header">Coding Quiz</h1>
         <h4>Test you knowledge with this quiz for amateur coders</h4>
+    </div>
     </header>
-    <main>
-        <p>Choose a time limit</p>
-        <button id = "oneMinutes" type="button">1 Minute "I am a wimp" mode</button>
-        <button id = "30Seconds" type="button">30 Second "Terminator" mode</button>
-        <button id = "highScore" type="button">High Scores</button>
+    <main class="container">
+        <div class="row">
+            <div class="col-md">
+                <p>Choose a time limit.</p>
+                <button id = "start" type="button">Click here to Start!</button>
+                <button id = "highScore" type="button">High Scores</button>
+            </div>
+        </div>
     </main>
     
+<script src="script.js"></script>    
 </body>    
